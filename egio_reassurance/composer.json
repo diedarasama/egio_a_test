@@ -1,0 +1,23 @@
+{
+    "name": "prestashop/egio_reassurance",
+    "authors": [
+      {
+        "name": "Egio"
+      },
+      {
+        "name": "Ayoub"
+      }
+    ],
+    "description": "composer autoloader",
+    "autoload": {
+      "psr-4": {
+        "PrestaShop\\Module\\Egio\\Model\\": "classes/"
+      }
+    },
+    "license": "MIT",
+    "type": "prestashop-module",
+    "config": {
+      "prepend-autoloader": false
+    }
+  }
+  
